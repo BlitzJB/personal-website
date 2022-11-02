@@ -1,0 +1,130 @@
+
+.maincontent {
+  max-width: 800px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+}
+
+.newsletterbox {
+  padding: 2em 3em;
+  margin-left: auto;
+  margin-right: auto;
+
+  display: flex;
+  width: fit-content;
+  flex-direction: column;
+
+}
+
+.newsletterbox__header {
+  font-weight: 900;
+  font-size: 2em;
+  color: rgb(194, 194, 194);
+  background: -webkit-linear-gradient(180deg, #B621FE, #1FD1F9);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent
+}
+
+.newsletterbox__inputarea {
+  margin-top: 1em;
+  padding: 1em;
+  display: flex;
+}
+
+.emailinput {
+  width: calc(100% - 5.5em);
+  height: 3em;
+  background-color: transparent;
+  border: 1px solid #61abbb;
+  border-radius: .3em;
+}
+
+.emailinput:focus {
+  border: 1px solid #00d0ff;
+  outline: none;
+}
+
+.submit {
+  width: 5em;
+  height: 3em;
+  margin-left: .5em;
+  margin-top: auto;
+  background-color: transparent;
+  border: none;
+  background-size: calc(100% + 5em);
+  transition: all 200ms;
+  cursor: pointer;
+  color: #00d0ff;
+}
+
+.submit:hover, .submit:focus {
+  background: -webkit-linear-gradient(180deg, #B621FE, #1FD1F9);
+  border-radius: .3em;
+  color: white;
+}
+
+.newsletterbox__inputarea {
+
+}
+
+.topicsbox {
+  margin-top: 2em;
+}
+
+.topicsbox__label {
+  font-size: 1.3em;
+  font-weight: 600;
+}
+
+.topics__list {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.topics__listitem {
+  padding: 1em;
+  border: 1px solid gray;
+  margin-top: 1em;
+}
+
+.contact {
+  font-size: 1.3em;
+  font-weight: 500;
+  margin-bottom: 1em;
+  margin-top: 3em;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+}
+
+.contact__icons {
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+}
+
+
+.contact__button {
+  display: inline-block;
+  margin-right: 1em;
+}
+
+.contact__button:nth-child(3) {
+  margin-right: 0;
+}
+
+.whatsapp {
+  fill: #25D366;
+}
+
+.linkedin {
+  fill: #0072b1;
+  transform: scale(1.2);
+}
+
+.instagram {
+  transform: scale(1.2);
+}
