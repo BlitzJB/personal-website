@@ -1,4 +1,4 @@
-import styles from "@styles/Home.module.css"
+import styles from "../styles/Home.module.css"
 import Instagram from "./Instagram"
 import LinkedIn from "./LinkedIn"
 import Whatsapp from "./Whatsapp"
